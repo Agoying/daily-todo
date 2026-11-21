@@ -11,10 +11,10 @@ Win11 风格的每日待办 / 定时提醒工具，**Windows 单文件 exe + 安
 
 | 平台 | 文件 | 说明 |
 | --- | --- | --- |
-| Windows 10 / 11 | `每日待办-Windows.zip`（见 [Releases](../../releases)） | 解压后双击 `每日待办.exe`，免安装、零运行库依赖 |
-| Android 7.0+ | `每日待办-1.3.apk` | 自签名安装包，安装时需允许「安装未知应用」 |
+| Windows 10 / 11 | [`DailyTodo-Windows.zip`](../../releases/download/v1.3/DailyTodo-Windows.zip) | 解压后双击 `每日待办.exe`，免安装、零运行库依赖 |
+| Android 7.0+ | [`DailyTodo-1.3.apk`](../../releases/download/v1.3/DailyTodo-1.3.apk) | 自签名安装包，安装时需允许「安装未知应用」 |
 
-历史版本（1.1 / 1.2 / 1.3）都在 [Releases](../../releases) 里，源码打包见对应 tag。
+历史版本：[`v1.3`](../../releases/tag/v1.3) · [`v1.2`](../../releases/tag/v1.2) · [`v1.1`](../../releases/tag/v1.1)，源码打包见对应 tag。
 
 ## 功能一览
 
@@ -230,11 +230,11 @@ g++ -std=c++17 -O2 -DUNICODE -D_UNICODE -municode -mwindows ^
 **安装包命名与归档规则**：产物一律命名为 `每日待办-<版本>.apk`（如 `每日待办-1.1.apk`、`每日待办-1.2.apk`、`每日待办-1.3.apk`），
 **每个版本都保留**，只有出现重大 bug 的版本才会被删除/覆盖。
 
-| 安装包 | 大小 | 说明 |
-| --- | --- | --- |
-| `每日待办-1.1.apk` | 66,345 B | 修复 PendingIntent 崩溃 |
-| `每日待办-1.2.apk` | 74,537 B | 去示例数据、灵动岛、确认待办页 |
-| `每日待办-1.3.apk` | 78,633 B | 识别码导入、隐藏列表识别码 +「更多选项」复制、应用内返回手势 |
+| 安装包 | 大小 | Release 资产名 | 说明 |
+| --- | --- | --- | --- |
+| `每日待办-1.1.apk` | 66,345 B | `DailyTodo-1.1.apk` | 修复 PendingIntent 崩溃 |
+| `每日待办-1.2.apk` | 74,537 B | `DailyTodo-1.2.apk` | 去示例数据、灵动岛、确认待办页 |
+| `每日待办-1.3.apk` | 78,633 B | `DailyTodo-1.3.apk` | 识别码导入、隐藏列表识别码 +「更多选项」复制、应用内返回手势 |
 
 - 包名 `com.dailytodo.app`，版本 1.3（versionCode 4），minSdk 24（Android 7.0+），targetSdk 34
 - 功能对齐：两个视图（时间线 / 分栏）、添加/修改（名称、提醒时间、常驻的起止日期、临时的执行次数）、删除二次确认、设置（开机自启 = 开机重排闹钟、提示音、暂停全部提醒、测试通知）、账号（邮箱注册/登录、局域网同步开关、立即同步、退出登录）
