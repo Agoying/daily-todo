@@ -1,0 +1,2 @@
+﻿# 每日待办 数据文件 v2 —— 每行一条，tab 分隔，请勿手工修改
+# T id title kind hour minute start end hasEnd total done enabled lastFired createdAt

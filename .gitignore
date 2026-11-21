@@ -1,0 +1,29 @@
+# 本机私有数据（首次运行自动生成，不进入仓库）
+tasks_data.txt
+tasks_data.txt.bak
+sync_meta.txt
+accounts.txt
+account_session.txt
+*.log
+
+# 构建产物与本地工具链
+build/
+_build_tools/
+_legacy_backup/
+_notify_backup/
+*.exe
+*.apk
+*.idsig
+*.o
+*.class
+*.dex
+tdapk/
+
+# 编辑器 / 系统
+.vscode/
+Thumbs.db
+desktop.ini
+
+# 签名密钥（仅本地保留）
+android/dailytodo.keystore
+tasks_data.sample.txt

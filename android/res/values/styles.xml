@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">#202020</item>
+        <item name="android:statusBarColor">#202020</item>
+        <item name="android:navigationBarColor">#202020</item>
+        <item name="android:colorAccent">#4CC2FF</item>
+        <item name="android:colorPrimary">#4CC2FF</item>
+        <item name="android:colorPrimaryDark">#202020</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <string name="app_name">每日待办</string>
+</resources>
